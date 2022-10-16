@@ -78,7 +78,7 @@ enemyX = []
 enemyY = []
 enemyX_change = []
 enemyY_change = []
-num_of_enemies = 6
+num_of_enemies = 6  # no of enemies  that will show on screen at a time
 
 for i in range(num_of_enemies):
     enemyImg.append(pygame.image.load('img/enemy.png'))
